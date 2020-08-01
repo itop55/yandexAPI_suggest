@@ -1,0 +1,37 @@
+.orgz-result {
+  background-color: #10163a;
+  position: absolute;
+  background-clip: padding-box;
+  font: 13px/28px Arial,sans-serif;
+  box-sizing: border-box;
+  border: 1px solid #f97354;
+  padding: 5px 0 0 0;
+  top: 39px;
+  width: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  touch-action: none;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.2) !important;
+  z-index: 999;
+  color: #ffffff;
+}
+.orgz-result ul {
+  list-style: none;
+  padding: 0;
+}
+.orgz-result ul li {
+  padding: 0 12px 5px 12px !important;
+  line-height: 10px !important;
+}
+.orgz-result ul li:hover {
+  background: #f97354;
+  cursor: pointer;
+}
+.orgz-result ul li p {
+  margin: 0;
+}
+.orgz-result ul li span {
+  font-size: 10px;
+}
+.orgz-result-container {
+  position:relative;
+}
